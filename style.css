@@ -1,3 +1,62 @@
-.btn btn-light {
-    display: inline;
+#grass{
+    border: solid 1px green;
+    color: green;
 }
+
+#poison{
+    border: solid 1px  purple;
+    color: purple;
+}
+#fire{
+    border: solid 1px red;
+    color: red;
+}
+#flying{
+    border: solid 1px blue;
+    color: blue;
+}
+#water{
+    border: solid 1px teal;
+    color: teal;
+}
+#bug{
+    border: solid 1px darkgreen;
+    color: darkgreen;
+}
+#normal{
+    border: solid 1px black;
+    color: black;
+}
+#electric{
+    border: solid 1px yellow;
+    color: yellow;
+}
+#ground{
+    border: solid 1px brown;
+    color: brown;
+}
+#fighting{
+    border: solid 1px cadetblue;
+    color: cadetblue;
+}
+#psychic{
+    border: solid 1px indigo;
+    color: indigo;
+}
+#rock{
+    border: solid 1px grey;
+    color: grey;
+}
+#ice{
+    border: solid 1px turquoise;
+    color: turquoise;
+}
+#ghost{
+    border: solid 1px blueviolet;
+    color: blueviolet;
+}
+#dragon{
+    border: solid 1px crimson;
+    color: crimson;
+}
+
