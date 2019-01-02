@@ -4,12 +4,28 @@
      fetch('pokemon.json')
      .then (data=> data.json())
      .then(data => {
-         console.log(data.pokemon[0])
+        pageTwo(data)
         
      })
     }
-
-
+  pageTwo=(data) =>{
+    //principal.innerHTML = "";
+    if (Array.isArray(data.pokemon)) {
+        for (let valor of data.pokemon) {
+            console.log(valor.name)
+            principal.innerHTML += `
+                       
+                    <div class="col-md-2">
+                        <div class="card mb-2 shadow-sm">
+                            <img class="card-img-top" src="${valor.img}" alt="Card ${valor.name}">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-sm btn-outline-dark w-100">${valor.name}</button>
+                            </div>
+                        </div>
+                     </div>`
+        }
+    }
+  }
  function click1() {
      fetch('pokemon.json')
          .then(data => data.json())
